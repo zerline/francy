@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">packages/francy-renderer-d3/src/graph/tree.js | francy-js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Francy - An Interactive Discrete Mathematics Framework for GAP"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="francy-js"><meta property="twitter:description" content="Francy - An Interactive Discrete Mathematics Framework for GAP"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/gap-packages/francy.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-component">francy-core/src/component</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/base.js~BaseComponent.html">BaseComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/d3.js~D3Component.html">D3Component</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/jupyter.js~JupyterComponent.html">JupyterComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/mathjax.js~MathJaxComponent.html">MathJaxComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Components">Components</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-decorator">francy-core/src/decorator</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/data.js~DataDecorator.html">DataDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/error.js~ErrorDecorator.html">ErrorDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/highlight.js~HighlightDecorator.html">HighlightDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/initialize.js~InitializerDecorator.html">InitializerDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/jupyter.js~JupyterDecorator.html">JupyterDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/loader.js~LoaderDecorator.html">LoaderDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Decorators">Decorators</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render">francy-core/src/render</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/base.js~BaseRenderer.html">BaseRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/callback.js~CallbackHandler.html">CallbackHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/composite.js~Composite.html">Composite</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/mathjax-wrapper.js~MathJaxWrapper.html">MathJaxWrapper</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/renderer.js~Renderer.html">Renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/rendering-configuration.js~RenderingConfiguration.html">RenderingConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/rendering-manager.js~RenderingManagerHandler.html">RenderingManagerHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/tooltip.js~Tooltip.html">Tooltip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERING_EVENTS">RENDERING_EVENTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-configuration">configuration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-graph">francy-core/src/render/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/graph/base.js~Graph.html">Graph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/graph/operations.js~GraphOperations.html">GraphOperations</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-menu">francy-core/src/render/menu</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/menu/base.js~Menu.html">Menu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/menu/context.js~ContextMenu.html">ContextMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-modal">francy-core/src/render/modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/about.js~AboutModal.html">AboutModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/base.js~Modal.html">Modal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/confirm.js~ConfirmModal.html">ConfirmModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/required.js~RequiredArgsModal.html">RequiredArgsModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-util">francy-core/src/util</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/configuration.js~ConfigurationHandler.html">ConfigurationHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/data-handler.js~DataHandler.html">DataHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/exception.js~Exception.html">Exception</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/exception.js~RuntimeException.html">RuntimeException</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/json.js~JsonUtils.html">JsonUtils</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/logger.js~Log.html">Log</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/observable.js~Observable.html">Observable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BACKEND">BACKEND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DefaultConfiguration">DefaultConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GlobalConfiguration">GlobalConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MIME">MIME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Logger">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Utilities">Utilities</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-extension-jupyter-src">francy-extension-jupyter/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-extension-jupyter/src/lab_extension.js~OutputWidget.html">OutputWidget</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register_renderer">register_renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-render_cells">render_cells</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-extension">extension</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-rendererFactory">rendererFactory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-APPEND_ID">APPEND_ID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLASS_NAME">CLASS_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MIME_TYPE">MIME_TYPE</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3">francy-renderer-d3</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/index.js~D3Renderer.html">D3Renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src">francy-renderer-d3/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src-chart">francy-renderer-d3/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/bar.js~BarChart.html">BarChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/chart.js~Chart.html">Chart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/factory.js~ChartFactory.html">ChartFactory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/line.js~LineChart.html">LineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/scatter.js~ScatterChart.html">ScatterChart</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src-graph">francy-renderer-d3/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/factory.js~Graph.html">Graph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/generic.js~GenericGraph.html">GenericGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/tree.js~TreeGraph.html">TreeGraph</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz">francy-renderer-graphviz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/index.js~GraphvizRenderer.html">GraphvizRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src">francy-renderer-graphviz/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-chart">francy-renderer-graphviz/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-graph">francy-renderer-graphviz/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-util">francy-renderer-graphviz/src/util</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/util/dot-converter.js~DOTLanguageConverterHelper.html">DOTLanguageConverterHelper</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis">francy-renderer-vis</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/index.js~VisRenderer.html">VisRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src">francy-renderer-vis/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src-chart">francy-renderer-vis/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src-graph">francy-renderer-vis/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-src">francy/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/francy.js~FrancyApp.html">FrancyApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-src-render">francy/src/render</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/frame.js~Frame.html">Frame</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/menu-main.js~MainMenu.html">MainMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/message.js~Message.html">Message</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">packages/francy-renderer-d3/src/graph/tree.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { Decorators, Graph, Logger } from &apos;francy-core&apos;;
+
+/* global d3 */
+
+export default class TreeGraph extends Graph {
+
+  constructor({ appendTo, callbackHandler }, context) {
+    super({ appendTo: appendTo, callbackHandler: callbackHandler }, context);
+  }
+
+  @Decorators.Initializer.initialize()
+  async render() {
+
+    let nodes = this.data.canvas.graph.nodes ? Object.values(this.data.canvas.graph.nodes) : [],
+      i = 0,
+      root;
+
+    root = d3.stratify().id(d =&gt; d.id).parentId(d =&gt; d.parent)(nodes);
+    root.x0 = this.height / 2;
+    root.y0 = 0;
+
+    // compute height based on the depth of the graph
+    let levelWidth = [1];
+    let childCount = function (level, n) {
+
+      if (n.children &amp;&amp; n.children.length &gt; 0) {
+        if (levelWidth.length &lt;= level + 1) levelWidth.push(0);
+
+        levelWidth[level + 1] += n.children.length;
+        n.children.forEach(function (d) {
+          childCount(level + 1, d);
+        });
+      }
+    };
+    childCount(0, root);
+    let size = d3.max(levelWidth) * 100;
+
+    let treemap = d3.tree().size([size, size])
+      .separation((a, b) =&gt; a.parent == b.parent ? a.data.size : a.data.size * 2);
+
+    if (this.data.canvas.graph.collapsed) {
+      root.children.forEach(collapse);
+    }
+
+    update.call(this, root)
+      .catch(error =&gt; Logger.warn(`(${this.context.instanceId}) ${error}`, error))
+      .then(setTimeout(this.parent.zoomToFit, this.transitionDuration));
+
+    function collapse(d) {
+      if (d.children) {
+        d._children = d.children;
+        d._children.forEach(collapse);
+        d.children = null;
+      }
+    }
+
+    async function update(source) {
+      let self = this;
+
+      let treeData = treemap(root);
+
+      let nodes = treeData.descendants(),
+        links = treeData.descendants().slice(1);
+
+      nodes.forEach(d =&gt; d.y = d.depth * 100);
+
+      let linkGroup = this.element.selectAll(&apos;g.francy-links&apos;);
+
+      if (!linkGroup.node()) {
+        linkGroup = this.element.append(&apos;g&apos;).attr(&apos;class&apos;, &apos;francy-links&apos;);
+      }
+
+      let link = linkGroup.selectAll(&apos;g.francy-link&apos;)
+        .data(links, d =&gt; d.id || (d.id = ++i));
+
+      let linkEnter = link.enter().append(&apos;g&apos;)
+        .classed(&apos;francy-link&apos;, true);
+
+      linkEnter.append(&apos;path&apos;)
+        .attr(&apos;class&apos;, &apos;francy-edge&apos;)
+        .style(&apos;fill&apos;, &apos;none&apos;)
+        .style(&apos;stroke-width&apos;, d =&gt; d.invisible ? 0 : Math.sqrt(d.weight || 0.2))
+        .style(&apos;stroke&apos;, d =&gt; d.color || &apos;#000&apos;)
+        .attr(&apos;d&apos;, () =&gt; {
+          let o = { x: source.x0, y: source.y0 };
+          return diagonal(o, o);
+        });
+
+      linkEnter.merge(link).selectAll(&apos;path.francy-edge&apos;)
+        .transition().duration(this.transitionDuration)
+        .attr(&apos;d&apos;, d =&gt; diagonal(d, d.parent));
+
+      link.exit().selectAll(&apos;path.francy-edge&apos;)
+        .transition().duration(this.transitionDuration)
+        .attr(&apos;d&apos;, () =&gt; {
+          let o = { x: source.x, y: source.y };
+          return diagonal(o, o);
+        }).remove();
+
+      link.exit().transition().duration(this.transitionDuration).remove();
+
+      nodes.forEach((d) =&gt; {
+        d.x0 = d.x;
+        d.y0 = d.y;
+      });
+
+      function diagonal(s, d) {
+        return `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`;
+      }
+
+      let nodeGroup = this.element.selectAll(&apos;g.francy-nodes&apos;);
+
+      if (!nodeGroup.node()) {
+        nodeGroup = this.element.append(&apos;g&apos;).attr(&apos;class&apos;, &apos;francy-nodes&apos;);
+      }
+
+      let node = nodeGroup.selectAll(&apos;g.francy-node&apos;)
+        .data(nodes, d =&gt; d.id || (d.id = ++i));
+
+      let nodeEnter = node.enter().append(&apos;g&apos;)
+        .attr(&apos;id&apos;, d =&gt; d.id)
+        .attr(&apos;class&apos;, &apos;francy-node&apos;)
+        .attr(&apos;transform&apos;, () =&gt; `translate(${source.y0},${source.x0})`);
+
+      nodeEnter.append(&apos;path&apos;)
+        .attr(&apos;d&apos;, d3.symbol().type(d =&gt; Graph.getSymbol(d.data.type)).size(d =&gt; d.data.size * 100))
+        .attr(&apos;class&apos;, &apos;francy-symbol&apos;);
+
+      nodeEnter.filter(d =&gt; d.data.title).append(&apos;text&apos;)
+        .attr(&apos;class&apos;, &apos;francy-label&apos;)
+        .text(d =&gt; d.data.title)
+        .style(&apos;font-size&apos;, d =&gt; 5 * Math.sqrt(d.weight || 1))
+        .style(&apos;cursor&apos;, d =&gt; d.children || d._children ? &apos;pointer&apos; : &apos;default&apos;)
+        .attr(&apos;x&apos;, function () {
+          // apply mathjax if this is the case
+          let text = d3.select(this);
+          if (text.text().startsWith(&apos;$&apos;) &amp;&amp; text.text().endsWith(&apos;$&apos;)) {
+            // we need to set the position after re-render the latex
+            self.handlePromise(self.mathjax.settings({
+              appendTo: { element: text },
+              renderType: &apos;SVG&apos;,
+              postFunction: () =&gt; {
+                self.setLabelXPosition(this);
+              }
+            }).render());
+          }
+          return self._getXPosition(this);
+        });
+
+      let nodeUpdate = nodeEnter.merge(node);
+
+      nodeUpdate.transition()
+        .duration(this.transitionDuration)
+        .attr(&apos;transform&apos;, d =&gt; `translate(${d.y},${d.x})`);
+
+      node.exit().transition().duration(this.transitionDuration)
+        .attr(&apos;transform&apos;, () =&gt; `translate(${source.y},${source.x})`)
+        .remove();
+
+      nodeGroup.selectAll(&apos;path.francy-symbol&apos;)
+        .style(&apos;fill&apos;, d =&gt; d.children || d._children ? &apos;#fff&apos; : Graph.colors(d.data.layer * 5))
+        .style(&apos;cursor&apos;, d =&gt; d.children || d._children ? &apos;pointer&apos; : &apos;default&apos;);
+
+      node = nodeGroup.selectAll(&apos;g.francy-node&apos;);
+
+      if (node.node()) {
+        this._applyEvents(node);
+
+        let nodeOnClick = node.on(&apos;click&apos;);
+        node.on(&apos;click&apos;, function (d) {
+          // any callbacks will be handled here
+          nodeOnClick.call(this, d.data);
+          // default, highlight connected nodes
+          click.call(this, d);
+        });
+      }
+
+      // Toggle children on click.
+      function click(d) {
+        if (d.children) {
+          d._children = d.children;
+          d.children = null;
+        } else {
+          d.children = d._children;
+          d._children = null;
+        }
+        update.call(self, d)
+          .catch(error =&gt; Logger.warn(`(${this.context.instanceId}) ${error}`, error))
+          .then(setTimeout(self.parent.zoomToFit, self.transitionDuration));
+      }
+    }
+
+    return this;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

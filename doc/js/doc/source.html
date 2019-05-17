@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href>
+  <title data-ice="title">Source | francy-js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Francy - An Interactive Discrete Mathematics Framework for GAP"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="francy-js"><meta property="twitter:description" content="Francy - An Interactive Discrete Mathematics Framework for GAP"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/gap-packages/francy.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-component">francy-core/src/component</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/base.js~BaseComponent.html">BaseComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/d3.js~D3Component.html">D3Component</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/jupyter.js~JupyterComponent.html">JupyterComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/component/mathjax.js~MathJaxComponent.html">MathJaxComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Components">Components</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-decorator">francy-core/src/decorator</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/data.js~DataDecorator.html">DataDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/error.js~ErrorDecorator.html">ErrorDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/highlight.js~HighlightDecorator.html">HighlightDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/initialize.js~InitializerDecorator.html">InitializerDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/jupyter.js~JupyterDecorator.html">JupyterDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/decorator/loader.js~LoaderDecorator.html">LoaderDecorator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Decorators">Decorators</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render">francy-core/src/render</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/base.js~BaseRenderer.html">BaseRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/callback.js~CallbackHandler.html">CallbackHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/composite.js~Composite.html">Composite</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/mathjax-wrapper.js~MathJaxWrapper.html">MathJaxWrapper</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/renderer.js~Renderer.html">Renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/rendering-configuration.js~RenderingConfiguration.html">RenderingConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/rendering-manager.js~RenderingManagerHandler.html">RenderingManagerHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/tooltip.js~Tooltip.html">Tooltip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERING_EVENTS">RENDERING_EVENTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-configuration">configuration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-graph">francy-core/src/render/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/graph/base.js~Graph.html">Graph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/graph/operations.js~GraphOperations.html">GraphOperations</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-menu">francy-core/src/render/menu</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/menu/base.js~Menu.html">Menu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/menu/context.js~ContextMenu.html">ContextMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-render-modal">francy-core/src/render/modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/about.js~AboutModal.html">AboutModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/base.js~Modal.html">Modal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/confirm.js~ConfirmModal.html">ConfirmModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/render/modal/required.js~RequiredArgsModal.html">RequiredArgsModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-options">options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-core-src-util">francy-core/src/util</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/configuration.js~ConfigurationHandler.html">ConfigurationHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/data-handler.js~DataHandler.html">DataHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/exception.js~Exception.html">Exception</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/exception.js~RuntimeException.html">RuntimeException</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/json.js~JsonUtils.html">JsonUtils</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/logger.js~Log.html">Log</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-core/src/util/observable.js~Observable.html">Observable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BACKEND">BACKEND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DefaultConfiguration">DefaultConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GlobalConfiguration">GlobalConfiguration</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MIME">MIME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Logger">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Utilities">Utilities</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-extension-jupyter-src">francy-extension-jupyter/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-extension-jupyter/src/lab_extension.js~OutputWidget.html">OutputWidget</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register_renderer">register_renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-render_cells">render_cells</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-extension">extension</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-rendererFactory">rendererFactory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-APPEND_ID">APPEND_ID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLASS_NAME">CLASS_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MIME_TYPE">MIME_TYPE</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3">francy-renderer-d3</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/index.js~D3Renderer.html">D3Renderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src">francy-renderer-d3/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src-chart">francy-renderer-d3/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/bar.js~BarChart.html">BarChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/chart.js~Chart.html">Chart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/factory.js~ChartFactory.html">ChartFactory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/line.js~LineChart.html">LineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/chart/scatter.js~ScatterChart.html">ScatterChart</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-d3-src-graph">francy-renderer-d3/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/factory.js~Graph.html">Graph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/generic.js~GenericGraph.html">GenericGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-d3/src/graph/tree.js~TreeGraph.html">TreeGraph</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz">francy-renderer-graphviz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/index.js~GraphvizRenderer.html">GraphvizRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src">francy-renderer-graphviz/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-chart">francy-renderer-graphviz/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-graph">francy-renderer-graphviz/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-graphviz-src-util">francy-renderer-graphviz/src/util</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-graphviz/src/util/dot-converter.js~DOTLanguageConverterHelper.html">DOTLanguageConverterHelper</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis">francy-renderer-vis</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/index.js~VisRenderer.html">VisRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src">francy-renderer-vis/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/canvas.js~Canvas.html">Canvas</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src-chart">francy-renderer-vis/src/chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-renderer-vis-src-graph">francy-renderer-vis/src/graph</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy-renderer-vis/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-src">francy/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/francy.js~FrancyApp.html">FrancyApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#instance-typedef-Options">Options</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#francy-src-render">francy/src/render</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/frame.js~Frame.html">Frame</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/menu-main.js~MainMenu.html">MainMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/packages/francy/src/render/message.js~Message.html">Message</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">185/362</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+    
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/index.js.html">packages/francy-core/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1592 byte</td>
+      <td style="display: none;" data-ice="lines">25</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/component/base.js.html#errorLines=46,86">packages/francy-core/src/component/base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/component/base.js~BaseComponent.html">BaseComponent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">77 %</span><span data-ice="coverageCount" class="coverage-count">7/9</span></td>
+      <td style="display: none;" data-ice="size">3612 byte</td>
+      <td style="display: none;" data-ice="lines">112</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/component/d3.js.html">packages/francy-core/src/component/d3.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/component/d3.js~D3Component.html">D3Component</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1022 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/component/factory.js.html">packages/francy-core/src/component/factory.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">726 byte</td>
+      <td style="display: none;" data-ice="lines">21</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/component/jupyter.js.html">packages/francy-core/src/component/jupyter.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/component/jupyter.js~JupyterComponent.html">JupyterComponent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">968 byte</td>
+      <td style="display: none;" data-ice="lines">33</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/component/mathjax.js.html">packages/francy-core/src/component/mathjax.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/component/mathjax.js~MathJaxComponent.html">MathJaxComponent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">3245 byte</td>
+      <td style="display: none;" data-ice="lines">100</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/data.js.html">packages/francy-core/src/decorator/data.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/data.js~DataDecorator.html">DataDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">2647 byte</td>
+      <td style="display: none;" data-ice="lines">87</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/error.js.html">packages/francy-core/src/decorator/error.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/error.js~ErrorDecorator.html">ErrorDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">21/21</span></td>
+      <td style="display: none;" data-ice="size">5515 byte</td>
+      <td style="display: none;" data-ice="lines">227</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/factory.js.html">packages/francy-core/src/decorator/factory.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1551 byte</td>
+      <td style="display: none;" data-ice="lines">45</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/highlight.js.html">packages/francy-core/src/decorator/highlight.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/highlight.js~HighlightDecorator.html">HighlightDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1146 byte</td>
+      <td style="display: none;" data-ice="lines">35</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/initialize.js.html">packages/francy-core/src/decorator/initialize.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/initialize.js~InitializerDecorator.html">InitializerDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">633 byte</td>
+      <td style="display: none;" data-ice="lines">24</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/jupyter.js.html">packages/francy-core/src/decorator/jupyter.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/jupyter.js~JupyterDecorator.html">JupyterDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1041 byte</td>
+      <td style="display: none;" data-ice="lines">33</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/decorator/loader.js.html">packages/francy-core/src/decorator/loader.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/decorator/loader.js~LoaderDecorator.html">LoaderDecorator</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">8/8</span></td>
+      <td style="display: none;" data-ice="size">1746 byte</td>
+      <td style="display: none;" data-ice="lines">76</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/base.js.html#errorLines=32">packages/francy-core/src/render/base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/base.js~BaseRenderer.html">BaseRenderer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">85 %</span><span data-ice="coverageCount" class="coverage-count">6/7</span></td>
+      <td style="display: none;" data-ice="size">3927 byte</td>
+      <td style="display: none;" data-ice="lines">124</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/callback.js.html">packages/francy-core/src/render/callback.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/callback.js~CallbackHandler.html">CallbackHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">3386 byte</td>
+      <td style="display: none;" data-ice="lines">92</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/composite.js.html">packages/francy-core/src/render/composite.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/composite.js~Composite.html">Composite</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">1972 byte</td>
+      <td style="display: none;" data-ice="lines">66</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/graph/base.js.html#errorLines=106,110,114,118,122,152,157,167,172,30,31,32,33,34,35,36,61,89,97">packages/francy-core/src/render/graph/base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/graph/base.js~Graph.html">Graph</a></span></td>
+      <td class="coverage"><span data-ice="coverage">5 %</span><span data-ice="coverageCount" class="coverage-count">1/20</span></td>
+      <td style="display: none;" data-ice="size">5505 byte</td>
+      <td style="display: none;" data-ice="lines">182</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/graph/operations.js.html#errorLines=153,24,50,54,94">packages/francy-core/src/render/graph/operations.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/graph/operations.js~GraphOperations.html">GraphOperations</a></span></td>
+      <td class="coverage"><span data-ice="coverage">16 %</span><span data-ice="coverageCount" class="coverage-count">1/6</span></td>
+      <td style="display: none;" data-ice="size">5318 byte</td>
+      <td style="display: none;" data-ice="lines">165</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/mathjax-wrapper.js.html">packages/francy-core/src/render/mathjax-wrapper.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/mathjax-wrapper.js~MathJaxWrapper.html">MathJaxWrapper</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">2473 byte</td>
+      <td style="display: none;" data-ice="lines">64</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/menu/base.js.html">packages/francy-core/src/render/menu/base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/menu/base.js~Menu.html">Menu</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">3/3</span></td>
+      <td style="display: none;" data-ice="size">2084 byte</td>
+      <td style="display: none;" data-ice="lines">61</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/menu/context.js.html#errorLines=28,34,62">packages/francy-core/src/render/menu/context.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/menu/context.js~ContextMenu.html">ContextMenu</a></span></td>
+      <td class="coverage"><span data-ice="coverage">25 %</span><span data-ice="coverageCount" class="coverage-count">1/4</span></td>
+      <td style="display: none;" data-ice="size">2056 byte</td>
+      <td style="display: none;" data-ice="lines">68</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/modal/about.js.html#errorLines=32,37">packages/francy-core/src/render/modal/about.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/modal/about.js~AboutModal.html">AboutModal</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">3340 byte</td>
+      <td style="display: none;" data-ice="lines">91</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/modal/base.js.html">packages/francy-core/src/render/modal/base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/modal/base.js~Modal.html">Modal</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">8/8</span></td>
+      <td style="display: none;" data-ice="size">2413 byte</td>
+      <td style="display: none;" data-ice="lines">96</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/modal/confirm.js.html">packages/francy-core/src/render/modal/confirm.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/modal/confirm.js~ConfirmModal.html">ConfirmModal</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">3/3</span></td>
+      <td style="display: none;" data-ice="size">2436 byte</td>
+      <td style="display: none;" data-ice="lines">72</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/modal/required.js.html">packages/francy-core/src/render/modal/required.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/modal/required.js~RequiredArgsModal.html">RequiredArgsModal</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">4595 byte</td>
+      <td style="display: none;" data-ice="lines">134</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/renderer.js.html">packages/francy-core/src/render/renderer.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/renderer.js~Renderer.html">Renderer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">13/13</span></td>
+      <td style="display: none;" data-ice="size">4382 byte</td>
+      <td style="display: none;" data-ice="lines">147</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/rendering-configuration.js.html">packages/francy-core/src/render/rendering-configuration.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/rendering-configuration.js~RenderingConfiguration.html">RenderingConfiguration</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">956 byte</td>
+      <td style="display: none;" data-ice="lines">31</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/rendering-manager.js.html#errorLines=30">packages/francy-core/src/render/rendering-manager.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-RENDERING_EVENTS">RENDERING_EVENTS</a></span>
+<span><a href="class/packages/francy-core/src/render/rendering-manager.js~RenderingManagerHandler.html">RenderingManagerHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">88 %</span><span data-ice="coverageCount" class="coverage-count">8/9</span></td>
+      <td style="display: none;" data-ice="size">5011 byte</td>
+      <td style="display: none;" data-ice="lines">143</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/render/tooltip.js.html#errorLines=33">packages/francy-core/src/render/tooltip.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/render/tooltip.js~Tooltip.html">Tooltip</a></span></td>
+      <td class="coverage"><span data-ice="coverage">75 %</span><span data-ice="coverageCount" class="coverage-count">3/4</span></td>
+      <td style="display: none;" data-ice="size">2441 byte</td>
+      <td style="display: none;" data-ice="lines">78</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/configuration.js.html">packages/francy-core/src/util/configuration.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-BACKEND">BACKEND</a></span>
+<span><a href="class/packages/francy-core/src/util/configuration.js~ConfigurationHandler.html">ConfigurationHandler</a></span>
+<span><a href="variable/index.html#static-variable-DefaultConfiguration">DefaultConfiguration</a></span>
+<span><a href="variable/index.html#static-variable-GlobalConfiguration">GlobalConfiguration</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">20/20</span></td>
+      <td style="display: none;" data-ice="size">5968 byte</td>
+      <td style="display: none;" data-ice="lines">234</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/data-handler.js.html">packages/francy-core/src/util/data-handler.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/util/data-handler.js~DataHandler.html">DataHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">1245 byte</td>
+      <td style="display: none;" data-ice="lines">47</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/exception.js.html">packages/francy-core/src/util/exception.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/util/exception.js~Exception.html">Exception</a></span>
+<span><a href="class/packages/francy-core/src/util/exception.js~RuntimeException.html">RuntimeException</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">516 byte</td>
+      <td style="display: none;" data-ice="lines">27</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/json.js.html#errorLines=35">packages/francy-core/src/util/json.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/util/json.js~JsonUtils.html">JsonUtils</a></span>
+<span><a href="variable/index.html#static-variable-MIME">MIME</a></span></td>
+      <td class="coverage"><span data-ice="coverage">75 %</span><span data-ice="coverageCount" class="coverage-count">3/4</span></td>
+      <td style="display: none;" data-ice="size">1088 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/logger.js.html">packages/francy-core/src/util/logger.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/util/logger.js~Log.html">Log</a></span>
+<span><a href="variable/index.html#static-variable-Logger">Logger</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">9/9</span></td>
+      <td style="display: none;" data-ice="size">2092 byte</td>
+      <td style="display: none;" data-ice="lines">88</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/observable.js.html">packages/francy-core/src/util/observable.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-core/src/util/observable.js~Observable.html">Observable</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">1864 byte</td>
+      <td style="display: none;" data-ice="lines">67</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-core/src/util/utilities.js.html">packages/francy-core/src/util/utilities.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">2563 byte</td>
+      <td style="display: none;" data-ice="lines">96</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/embed.js.html">packages/francy-extension-jupyter/src/embed.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">326 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/index.js.html">packages/francy-extension-jupyter/src/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">114 byte</td>
+      <td style="display: none;" data-ice="lines">2</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/lab_extension.js.html#errorLines=20,21,25,72">packages/francy-extension-jupyter/src/lab_extension.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-extension-jupyter/src/lab_extension.js~OutputWidget.html">OutputWidget</a></span>
+<span><a href="variable/index.html#static-variable-extension">extension</a></span>
+<span><a href="variable/index.html#static-variable-rendererFactory">rendererFactory</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">4/8</span></td>
+      <td style="display: none;" data-ice="size">2738 byte</td>
+      <td style="display: none;" data-ice="lines">79</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/nb_extension.js.html">packages/francy-extension-jupyter/src/nb_extension.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1380 byte</td>
+      <td style="display: none;" data-ice="lines">51</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/nb_index.js.html">packages/francy-extension-jupyter/src/nb_index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">632 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/renderer.js.html#errorLines=3">packages/francy-extension-jupyter/src/renderer.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-init">init</a></span>
+<span><a href="function/index.html#static-function-register_renderer">register_renderer</a></span>
+<span><a href="function/index.html#static-function-render_cells">render_cells</a></span></td>
+      <td class="coverage"><span data-ice="coverage">83 %</span><span data-ice="coverageCount" class="coverage-count">5/6</span></td>
+      <td style="display: none;" data-ice="size">4287 byte</td>
+      <td style="display: none;" data-ice="lines">133</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/utils.js.html#errorLines=1,2,3">packages/francy-extension-jupyter/src/utils.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-APPEND_ID">APPEND_ID</a></span>
+<span><a href="variable/index.html#static-variable-CLASS_NAME">CLASS_NAME</a></span>
+<span><a href="variable/index.html#static-variable-MIME_TYPE">MIME_TYPE</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">675 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-extension-jupyter/src/vendor.js.html">packages/francy-extension-jupyter/src/vendor.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">174 byte</td>
+      <td style="display: none;" data-ice="lines">6</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/index.js.html#errorLines=4,6,8">packages/francy-renderer-d3/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/index.js~D3Renderer.html">D3Renderer</a></span>
+<span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">278 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/canvas.js.html#errorLines=11,116,12,15,24,7,70,9">packages/francy-renderer-d3/src/canvas.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/canvas.js~Canvas.html">Canvas</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/8</span></td>
+      <td style="display: none;" data-ice="size">5793 byte</td>
+      <td style="display: none;" data-ice="lines">162</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/chart/bar.js.html#errorLines=13,15,6,8">packages/francy-renderer-d3/src/chart/bar.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/chart/bar.js~BarChart.html">BarChart</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">2623 byte</td>
+      <td style="display: none;" data-ice="lines">81</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/chart/chart.js.html#errorLines=10,11,12,120,124,128,13,14,17,20,29,41,5,7,84,9">packages/francy-renderer-d3/src/chart/chart.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/chart/chart.js~Chart.html">Chart</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/16</span></td>
+      <td style="display: none;" data-ice="size">3713 byte</td>
+      <td style="display: none;" data-ice="lines">132</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/chart/factory.js.html#errorLines=13,6,8">packages/francy-renderer-d3/src/chart/factory.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/chart/factory.js~ChartFactory.html">ChartFactory</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">975 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/chart/line.js.html#errorLines=13,6,8">packages/francy-renderer-d3/src/chart/line.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/chart/line.js~LineChart.html">LineChart</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">1877 byte</td>
+      <td style="display: none;" data-ice="lines">68</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/chart/scatter.js.html#errorLines=13,6,8">packages/francy-renderer-d3/src/chart/scatter.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/chart/scatter.js~ScatterChart.html">ScatterChart</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">1828 byte</td>
+      <td style="display: none;" data-ice="lines">67</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/graph/factory.js.html#errorLines=12,5,7">packages/francy-renderer-d3/src/graph/factory.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/graph/factory.js~Graph.html">Graph</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">831 byte</td>
+      <td style="display: none;" data-ice="lines">32</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/graph/generic.js.html#errorLines=12,272,5,7">packages/francy-renderer-d3/src/graph/generic.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/graph/generic.js~GenericGraph.html">GenericGraph</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">10590 byte</td>
+      <td style="display: none;" data-ice="lines">292</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-d3/src/graph/tree.js.html#errorLines=12,5,7">packages/francy-renderer-d3/src/graph/tree.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-d3/src/graph/tree.js~TreeGraph.html">TreeGraph</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">6233 byte</td>
+      <td style="display: none;" data-ice="lines">198</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-graphviz/index.js.html#errorLines=4,6,8">packages/francy-renderer-graphviz/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-graphviz/index.js~GraphvizRenderer.html">GraphvizRenderer</a></span>
+<span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">295 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-graphviz/src/canvas.js.html#errorLines=11,12,13,14,21,33,7,84,9">packages/francy-renderer-graphviz/src/canvas.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-graphviz/src/canvas.js~Canvas.html">Canvas</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/9</span></td>
+      <td style="display: none;" data-ice="size">7305 byte</td>
+      <td style="display: none;" data-ice="lines">179</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-graphviz/src/chart/generic.js.html#errorLines=12,20,5,7">packages/francy-renderer-graphviz/src/chart/generic.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-graphviz/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">972 byte</td>
+      <td style="display: none;" data-ice="lines">29</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-graphviz/src/graph/generic.js.html#errorLines=10,11,119,12,130,141,17,6,8">packages/francy-renderer-graphviz/src/graph/generic.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-graphviz/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/9</span></td>
+      <td style="display: none;" data-ice="size">8292 byte</td>
+      <td style="display: none;" data-ice="lines">206</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-graphviz/src/util/dot-converter.js.html#errorLines=13,15,16,19,20,21,23,35,48,54,60,66,77,83">packages/francy-renderer-graphviz/src/util/dot-converter.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-graphviz/src/util/dot-converter.js~DOTLanguageConverterHelper.html">DOTLanguageConverterHelper</a></span></td>
+      <td class="coverage"><span data-ice="coverage">6 %</span><span data-ice="coverageCount" class="coverage-count">1/15</span></td>
+      <td style="display: none;" data-ice="size">3095 byte</td>
+      <td style="display: none;" data-ice="lines">97</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-vis/index.js.html#errorLines=4,6,8">packages/francy-renderer-vis/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-RENDERER_NAME">RENDERER_NAME</a></span>
+<span><a href="class/packages/francy-renderer-vis/index.js~VisRenderer.html">VisRenderer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">285 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-vis/src/canvas.js.html#errorLines=11,12,13,14,21,24,40,54,7,9">packages/francy-renderer-vis/src/canvas.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-vis/src/canvas.js~Canvas.html">Canvas</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/10</span></td>
+      <td style="display: none;" data-ice="size">4978 byte</td>
+      <td style="display: none;" data-ice="lines">123</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-vis/src/chart/generic.js.html#errorLines=12,20,5,7">packages/francy-renderer-vis/src/chart/generic.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-vis/src/chart/generic.js~ChartGeneric.html">ChartGeneric</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">972 byte</td>
+      <td style="display: none;" data-ice="lines">29</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy-renderer-vis/src/graph/generic.js.html#errorLines=10,11,16,5,7,9">packages/francy-renderer-vis/src/graph/generic.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy-renderer-vis/src/graph/generic.js~GraphGeneric.html">GraphGeneric</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/6</span></td>
+      <td style="display: none;" data-ice="size">3555 byte</td>
+      <td style="display: none;" data-ice="lines">112</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy/index.js.html">packages/francy/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">86 byte</td>
+      <td style="display: none;" data-ice="lines">2</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy/src/francy.js.html#errorLines=54">packages/francy/src/francy.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy/src/francy.js~FrancyApp.html">FrancyApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">80 %</span><span data-ice="coverageCount" class="coverage-count">4/5</span></td>
+      <td style="display: none;" data-ice="size">2767 byte</td>
+      <td style="display: none;" data-ice="lines">96</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy/src/render/frame.js.html#errorLines=15,18,19,20,24,26,50">packages/francy/src/render/frame.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy/src/render/frame.js~Frame.html">Frame</a></span></td>
+      <td class="coverage"><span data-ice="coverage">12 %</span><span data-ice="coverageCount" class="coverage-count">1/8</span></td>
+      <td style="display: none;" data-ice="size">1847 byte</td>
+      <td style="display: none;" data-ice="lines">54</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy/src/render/menu-main.js.html#errorLines=110,13,15,164,179,18,207,21,222,233,66">packages/francy/src/render/menu-main.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy/src/render/menu-main.js~MainMenu.html">MainMenu</a></span></td>
+      <td class="coverage"><span data-ice="coverage">8 %</span><span data-ice="coverageCount" class="coverage-count">1/12</span></td>
+      <td style="display: none;" data-ice="size">8765 byte</td>
+      <td style="display: none;" data-ice="lines">237</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/packages/francy/src/render/message.js.html#errorLines=12,17,29">packages/francy/src/render/message.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/packages/francy/src/render/message.js~Message.html">Message</a></span></td>
+      <td class="coverage"><span data-ice="coverage">25 %</span><span data-ice="coverageCount" class="coverage-count">1/4</span></td>
+      <td style="display: none;" data-ice="size">1775 byte</td>
+      <td style="display: none;" data-ice="lines">55</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 14:06:21 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

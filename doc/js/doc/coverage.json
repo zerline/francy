@@ -1,0 +1,509 @@
+{
+  "coverage": "51.1%",
+  "expectCount": 362,
+  "actualCount": 185,
+  "files": {
+    "packages/francy/src/francy.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        54
+      ]
+    },
+    "packages/francy/src/render/frame.js": {
+      "expectCount": 8,
+      "actualCount": 1,
+      "undocumentLines": [
+        15,
+        18,
+        19,
+        20,
+        24,
+        26,
+        50
+      ]
+    },
+    "packages/francy/src/render/menu-main.js": {
+      "expectCount": 12,
+      "actualCount": 1,
+      "undocumentLines": [
+        13,
+        15,
+        18,
+        21,
+        66,
+        110,
+        164,
+        179,
+        207,
+        222,
+        233
+      ]
+    },
+    "packages/francy/src/render/message.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        12,
+        17,
+        29
+      ]
+    },
+    "packages/francy-core/src/component/base.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        46,
+        86
+      ]
+    },
+    "packages/francy-core/src/component/d3.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/component/jupyter.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/component/mathjax.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/data.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/error.js": {
+      "expectCount": 21,
+      "actualCount": 21,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/highlight.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/initialize.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/jupyter.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/decorator/loader.js": {
+      "expectCount": 8,
+      "actualCount": 8,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/base.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        32
+      ]
+    },
+    "packages/francy-core/src/render/callback.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/composite.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/graph/base.js": {
+      "expectCount": 20,
+      "actualCount": 1,
+      "undocumentLines": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        61,
+        89,
+        97,
+        106,
+        110,
+        114,
+        118,
+        122,
+        152,
+        157,
+        167,
+        172
+      ]
+    },
+    "packages/francy-core/src/render/graph/operations.js": {
+      "expectCount": 6,
+      "actualCount": 1,
+      "undocumentLines": [
+        24,
+        50,
+        54,
+        94,
+        153
+      ]
+    },
+    "packages/francy-core/src/render/mathjax-wrapper.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/menu/base.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/menu/context.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        28,
+        34,
+        62
+      ]
+    },
+    "packages/francy-core/src/render/modal/about.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        32,
+        37
+      ]
+    },
+    "packages/francy-core/src/render/modal/base.js": {
+      "expectCount": 8,
+      "actualCount": 8,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/modal/confirm.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/modal/required.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/renderer.js": {
+      "expectCount": 13,
+      "actualCount": 13,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/rendering-configuration.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/render/rendering-manager.js": {
+      "expectCount": 9,
+      "actualCount": 8,
+      "undocumentLines": [
+        30
+      ]
+    },
+    "packages/francy-core/src/render/tooltip.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        33
+      ]
+    },
+    "packages/francy-core/src/util/configuration.js": {
+      "expectCount": 20,
+      "actualCount": 20,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/util/data-handler.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/util/exception.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/util/json.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        35
+      ]
+    },
+    "packages/francy-core/src/util/logger.js": {
+      "expectCount": 9,
+      "actualCount": 9,
+      "undocumentLines": []
+    },
+    "packages/francy-core/src/util/observable.js": {
+      "expectCount": 7,
+      "actualCount": 7,
+      "undocumentLines": []
+    },
+    "packages/francy-extension-jupyter/src/lab_extension.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        20,
+        21,
+        25,
+        72
+      ]
+    },
+    "packages/francy-extension-jupyter/src/renderer.js": {
+      "expectCount": 6,
+      "actualCount": 5,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "packages/francy-extension-jupyter/src/utils.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "packages/francy-renderer-d3/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        8
+      ]
+    },
+    "packages/francy-renderer-d3/src/canvas.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        11,
+        12,
+        15,
+        24,
+        70,
+        116
+      ]
+    },
+    "packages/francy-renderer-d3/src/chart/bar.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        13,
+        15
+      ]
+    },
+    "packages/francy-renderer-d3/src/chart/chart.js": {
+      "expectCount": 16,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        20,
+        29,
+        41,
+        84,
+        120,
+        124,
+        128
+      ]
+    },
+    "packages/francy-renderer-d3/src/chart/factory.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        13
+      ]
+    },
+    "packages/francy-renderer-d3/src/chart/line.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        13
+      ]
+    },
+    "packages/francy-renderer-d3/src/chart/scatter.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        13
+      ]
+    },
+    "packages/francy-renderer-d3/src/graph/factory.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        12
+      ]
+    },
+    "packages/francy-renderer-d3/src/graph/generic.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        12,
+        272
+      ]
+    },
+    "packages/francy-renderer-d3/src/graph/tree.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        12
+      ]
+    },
+    "packages/francy-renderer-graphviz/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        8
+      ]
+    },
+    "packages/francy-renderer-graphviz/src/canvas.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        21,
+        33,
+        84
+      ]
+    },
+    "packages/francy-renderer-graphviz/src/chart/generic.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        12,
+        20
+      ]
+    },
+    "packages/francy-renderer-graphviz/src/graph/generic.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        10,
+        11,
+        12,
+        17,
+        119,
+        130,
+        141
+      ]
+    },
+    "packages/francy-renderer-graphviz/src/util/dot-converter.js": {
+      "expectCount": 15,
+      "actualCount": 1,
+      "undocumentLines": [
+        13,
+        15,
+        16,
+        19,
+        20,
+        21,
+        23,
+        35,
+        48,
+        54,
+        60,
+        66,
+        77,
+        83
+      ]
+    },
+    "packages/francy-renderer-vis/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        8
+      ]
+    },
+    "packages/francy-renderer-vis/src/canvas.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        21,
+        24,
+        40,
+        54
+      ]
+    },
+    "packages/francy-renderer-vis/src/chart/generic.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        12,
+        20
+      ]
+    },
+    "packages/francy-renderer-vis/src/graph/generic.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        16
+      ]
+    }
+  }
+}

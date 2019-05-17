@@ -1,0 +1,276 @@
+[
+  {
+    "name": "ErrorDecorator#withRetries",
+    "filePath": "packages/francy-core/src/decorator/error.js",
+    "lines": [
+      {
+        "lineNumber": 110,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 111,
+        "line": "   * This method stores the number of retries to execute the function."
+      },
+      {
+        "lineNumber": 112,
+        "line": "   * "
+      },
+      {
+        "lineNumber": 113,
+        "line": "   * @public"
+      },
+      {
+        "lineNumber": 114,
+        "line": "   * @param {integer} bool - true if the error must be logged, otherwise false. "
+      },
+      {
+        "lineNumber": 115,
+        "line": "   * Defaults to true."
+      },
+      {
+        "lineNumber": 116,
+        "line": "   * @return {this} instance"
+      },
+      {
+        "lineNumber": 117,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 118,
+        "line": "  withRetries(n) {"
+      }
+    ],
+    "codeParams": [
+      "n"
+    ],
+    "docParams": [
+      "bool"
+    ]
+  },
+  {
+    "name": "Log#debug",
+    "filePath": "packages/francy-core/src/util/logger.js",
+    "lines": [
+      {
+        "lineNumber": 19,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 20,
+        "line": "   * Creates a [DEBUG] entry in the console log"
+      },
+      {
+        "lineNumber": 21,
+        "line": "   * @param message the message to print"
+      },
+      {
+        "lineNumber": 22,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 23,
+        "line": "  debug(message, object) {"
+      }
+    ],
+    "codeParams": [
+      "message",
+      "object"
+    ],
+    "docParams": [
+      "message"
+    ]
+  },
+  {
+    "name": "Log#info",
+    "filePath": "packages/francy-core/src/util/logger.js",
+    "lines": [
+      {
+        "lineNumber": 33,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 34,
+        "line": "   * Creates an [INFO] entry in the console log"
+      },
+      {
+        "lineNumber": 35,
+        "line": "   * @param message the message to print"
+      },
+      {
+        "lineNumber": 36,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 37,
+        "line": "  info(message, object) {"
+      }
+    ],
+    "codeParams": [
+      "message",
+      "object"
+    ],
+    "docParams": [
+      "message"
+    ]
+  },
+  {
+    "name": "Log#error",
+    "filePath": "packages/francy-core/src/util/logger.js",
+    "lines": [
+      {
+        "lineNumber": 45,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 46,
+        "line": "   * Creates an [ERROR] entry in the console log"
+      },
+      {
+        "lineNumber": 47,
+        "line": "   * @param message the message to print"
+      },
+      {
+        "lineNumber": 48,
+        "line": "   * @param error the error Object to attach to the message"
+      },
+      {
+        "lineNumber": 49,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 50,
+        "line": "  error(message, object) {"
+      }
+    ],
+    "codeParams": [
+      "message",
+      "object"
+    ],
+    "docParams": [
+      "message",
+      "error"
+    ]
+  },
+  {
+    "name": "Log#warn",
+    "filePath": "packages/francy-core/src/util/logger.js",
+    "lines": [
+      {
+        "lineNumber": 58,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 59,
+        "line": "   * Creates a [WARN] entry in the console log"
+      },
+      {
+        "lineNumber": 60,
+        "line": "   * @param message the message to print"
+      },
+      {
+        "lineNumber": 61,
+        "line": "   * @param error the error Object to attach to the message"
+      },
+      {
+        "lineNumber": 62,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 63,
+        "line": "  warn(message, object) {"
+      }
+    ],
+    "codeParams": [
+      "message",
+      "object"
+    ],
+    "docParams": [
+      "message",
+      "error"
+    ]
+  },
+  {
+    "name": "Observable#subscribe",
+    "filePath": "packages/francy-core/src/util/observable.js",
+    "lines": [
+      {
+        "lineNumber": 21,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 22,
+        "line": "   * This method is used register a function that is invoked to sync the object"
+      },
+      {
+        "lineNumber": 23,
+        "line": "   * @param {string} property - the property to subscribe to"
+      },
+      {
+        "lineNumber": 24,
+        "line": "   * @param {function} fn - the function to execute - must handle one arg, the object, of type {Object}"
+      },
+      {
+        "lineNumber": 25,
+        "line": "   * @public"
+      },
+      {
+        "lineNumber": 26,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 27,
+        "line": "  subscribe(property, fn, id) {"
+      }
+    ],
+    "codeParams": [
+      "property",
+      "fn",
+      "id"
+    ],
+    "docParams": [
+      "property",
+      "fn"
+    ]
+  },
+  {
+    "name": "Observable#unsubscribe",
+    "filePath": "packages/francy-core/src/util/observable.js",
+    "lines": [
+      {
+        "lineNumber": 34,
+        "line": "  /**"
+      },
+      {
+        "lineNumber": 35,
+        "line": "   * This method is used to unregister a function registered previously"
+      },
+      {
+        "lineNumber": 36,
+        "line": "   * @param {string} property - the property to unsubscribe to"
+      },
+      {
+        "lineNumber": 37,
+        "line": "   * @param {function} fn - the function to execute - must handle one arg, the object, of type {Object}"
+      },
+      {
+        "lineNumber": 38,
+        "line": "   * @public"
+      },
+      {
+        "lineNumber": 39,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 40,
+        "line": "  unsubscribe(id) {"
+      }
+    ],
+    "codeParams": [
+      "id"
+    ],
+    "docParams": [
+      "property",
+      "fn"
+    ]
+  }
+]

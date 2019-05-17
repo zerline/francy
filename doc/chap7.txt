@@ -1,0 +1,87 @@
+  
+  [1X7 [33X[0;0YFrancy Menus[133X[101X
+  
+  [33X[0;0YMenus  are  agregators  of  actions  that are represented here by [10XCallbacks[110X.
+  Menus can have SubMenus, and are constituted by a Title and a Callback.[133X
+  
+  [33X[0;0YPlease see Francy-JS for client implementation.[133X
+  
+  
+  [1X7.1 [33X[0;0YCategories[133X[101X
+  
+  [33X[0;0YIn this section we show all Francy Menu Categories.[133X
+  
+  [1X7.1-1 IsMenu[101X
+  
+  [33X[1;0Y[29X[2XIsMenu[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YIdentifies [10XMenu[110X objects.[133X
+  
+  
+  [1X7.2 [33X[0;0YFamilies[133X[101X
+  
+  [33X[0;0YIn this section we show all Francy Menu Families.[133X
+  
+  
+  [1X7.3 [33X[0;0YRepresentations[133X[101X
+  
+  [33X[0;0YIn this section we show all Francy Menu Representations.[133X
+  
+  [1X7.3-1 IsMenuRep[101X
+  
+  [33X[1;0Y[29X[2XIsMenuRep[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  
+  [33X[0;0YChecks whether an [10XObject[110X has a [10XMenu[110X internal representation.[133X
+  
+  
+  [1X7.4 [33X[0;0YOperations[133X[101X
+  
+  [33X[0;0YIn this section we show all Francy Menu Operations.[133X
+  
+  [1X7.4-1 Menu[101X
+  
+  [33X[1;0Y[29X[2XMenu[102X( [3XIsString(title)[103X[, [3XIsCallback[103X] ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Y[10XMenu[110X[133X
+  
+  [33X[0;0YCreates a Menu for a [10XCallback[110X Is up to the client implementation to sort out
+  the Menu and invoke the [10XCallback[110X[133X
+  
+  [1X7.4-2 Add[101X
+  
+  [33X[1;0Y[29X[2XAdd[102X( [3XIsMenu[103X[, [3XIsMenu[103X, [3XList(IsMenu)[103X] ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Y[10XMenu[110X[133X
+  
+  [33X[0;0YAdd  [10XMenu[110X  to  a  specific  [10XMenu[110X  creating  a  Submenu.  Is up to the client
+  implementation to handle this.[133X
+  
+  [1X7.4-3 Remove[101X
+  
+  [33X[1;0Y[29X[2XRemove[102X( [3XIsMenu[103X[, [3XIsMenu[103X, [3XList(IsMenu)[103X] ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Y[10XMenu[110X[133X
+  
+  [33X[0;0YRemove [10XMenu[110X from a specific [10XMenu[110X. The client should be able to handle this.[133X
+  
+  
+  [1X7.5 [33X[0;0YAttributes[133X[101X
+  
+  [33X[0;0YIn this section we show all Francy Core Attributes[133X
+  
+  [1X7.5-1 Title[101X
+  
+  [33X[1;0Y[29X[2XTitle[102X( [3Xarg[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Y[10XIsString[110X with the title of the object[133X
+  
+  [33X[0;0YA title on a [10XMenu[110X is used to identify the menu entry.[133X
+  
+  [1X7.5-2 Title[101X
+  
+  [33X[1;0Y[29X[2XTitle[102X( [3Xarg1[103X ) [32X function[133X
+  
+  [1X7.5-3 SetTitle[101X
+  
+  [33X[1;0Y[29X[2XSetTitle[102X( [3XIsMenu[103X, [3XIsString[103X ) [32X function[133X
+  
+  [33X[0;0YSets the title of the [10XMenu[110X.[133X
+  
