@@ -86,7 +86,31 @@ export default class CallbackHandler extends BaseRenderer {
    */
   _execute(object) {
     // oh well, Trigger(<json>); is the entrypoint back to GAP 
-    // while we don't support comms on the kernel:
-    return this.callback(`Trigger(${JSON.stringify(JSON.stringify(object))});`);
+      // while we don't support comms on the kernel:
+    if (object.language == 'python') {
+        var args = '';
+        if (object.knownArgs && Array.isArray(object.knownArgs)) {
+            if (object.funcscope == 'object' || object.funcscope == 'class') {
+                args = "'" + object.knownArgs.slice(1).join("', '") + "'";
+            }
+            else {
+                args = "'" + object.knownArgs.join("', '") + "'";
+            }
+        }
+        var cmdline = '';
+        if (object.funcscope == 'object' || object.funcscope == 'class') {
+            cmdline = object.knownArgs[0] + '.' + object.funcname + '(' + args + ')';
+        }
+        else {
+            cmdline = object.funcname + '(' + args + ')';
+        }
+    }
+    else {
+        cmdline = "Trigger(".concat(JSON.stringify(JSON.stringify(object)), ");");
+    }
+    console.log(cmdline);
+    return this.callback(cmdline);
+
+    //return this.callback(`Trigger(${JSON.stringify(JSON.stringify(object))});`);
   }
 }
